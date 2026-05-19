@@ -1,0 +1,40 @@
+# Node.js
+node_modules/
+.next/
+out/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+# Python
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Databases & Local Configuration
+*.db
+*.sqlite3
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Media Uploads & Temp files
+backend/static/uploads/*
+!backend/static/uploads/.gitkeep
+temp/
+tmp/
+
+# Operating System files
+.DS_Store
+Thumbs.db
